@@ -6,7 +6,10 @@ call pathogen#runtime_append_all_bundles()
 set nocompatible
 syntax on
 set number
-colorscheme desert
+
+set background=dark
+colorscheme solarized
+
 set tabstop=4
 set shiftwidth=4
 set smartindent
