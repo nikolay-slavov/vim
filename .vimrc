@@ -43,6 +43,12 @@ set laststatus=2
 set guioptions-=T "remove toolbar
 set guioptions-=m "remove menu
 
+set guioptions-=r "remove right-hand scrollbar
+set guioptions-=L "remove left-hand scrollbar
+
+"Split windows below the current window.
+set splitbelow
+set splitright
 
 "sets tabexpand to spaces
 set linespace=4
@@ -73,6 +79,10 @@ nmap <F2> :NERDTreeMirrorToggle<CR>
 
 "The Vim class outline viewer
 nmap <F8> :TagbarToggle<CR>
+
+"toggle CtrlPMixed
+let g:ctrlp_map = ',c'
+let g:ctrlp_cmd = 'CtrlPMixed'
 
 " Source the vimrc file after saving it. This way, you don't have to reload
 " Vim to see the changes.
