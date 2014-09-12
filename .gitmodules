@@ -31,3 +31,6 @@
 [submodule "bundle/vim-autopairs"]
 	path = bundle/vim-autopairs
 	url = https://github.com/vim-scripts/Auto-Pairs.git
+[submodule "bundle/switch-vim"]
+	path = bundle/switch-vim
+	url = https://github.com/AndrewRadev/switch.vim.git
